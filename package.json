@@ -1,0 +1,19 @@
+{
+  "name": "atom-codepicnic",
+  "main": "./lib/atom-codepicnic",
+  "version": "0.0.0",
+  "description": "Offline editor for your CodePicnic account",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "CodePicnic:open-remote"
+  },
+  "repository": "https://github.com/codepicnic/atom-codepicnic",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  }
+}
